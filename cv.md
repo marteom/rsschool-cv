@@ -21,12 +21,12 @@ I like programming. I want to consolidate my existing knowledge in JavaScript.
     const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
 ```
 ## Experience
-* HTML academy course simulators and scills
+* HTML academy course simulators and skills
 * Several pet projects
 * Work tasks
 
 ## Education
-I have a technical education
+I have a technical education.
 
 ## English language
 School level. Self-study. 
