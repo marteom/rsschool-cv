@@ -21,6 +21,7 @@ I like programming. I want to consolidate my existing knowledge in JavaScript.
     const sleep = msec => new Promise(resolve => setTimeout(resolve, msec));
 ```
 ## Experience
+* [MortalCombat](https://github.com/marteom/MortalCombat)
 * HTML academy course simulators and skills
 * Several pet projects
 * Work tasks
