@@ -1,0 +1,134 @@
+:root{
+    --background: #f4f8f9;
+    --shadow: #0061D9;
+    --header-color: #0050B2;
+    --element-background: #f8e6cd;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.photo img{
+    width: 175px;
+    height: 175px;
+    border-radius: 2rem;
+}
+
+.body {
+    background-color: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.namer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.caption {
+    margin-left: 2rem;
+}
+
+.caption h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.caption h1 {
+    font-size: 2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    font-size: 1rem;
+}
+
+ul.main-menu li {
+    text-transform: uppercase;
+    list-style: none;
+    display: inline;
+}
+
+ul.main-menu li a {
+    box-shadow: 4px 4px;
+    cursor: move;
+    margin-bottom: 1.2em;
+    margin-right: 0.8em;
+    border: 2px solid;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: var(--shadow);
+}
+
+ul.main-menu li a:hover {
+    background-color: var(--element-background);
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.section {
+    padding-bottom: 0.6rem;
+}
+
+.section h2 {
+    text-decoration: underline;
+    color: var(--header-color);
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.description ul li {
+    list-style: square;
+}
+
+.description code {
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+}
+
+ul.contacts-list {
+    padding: 0;
+}
+
+ul.contacts-list li {
+    list-style: none;
+}
+
+.contacts-list li span {
+    font-weight: 700;
+}
+
+.footer {
+    background-color: var(--element-background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.year {
+    font-size: 2rem;
+}
+
+.rss-link {
+    height: 2rem;
+}
